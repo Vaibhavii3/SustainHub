@@ -1,0 +1,85 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header.jumbotron {
+    background: url('./img/c1.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+}
+
+
+
+.media img {
+    border-radius: 50%;
+}
+
+
+
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+.day {
+    border: 1px solid #ddd;
+    padding: 10px;
+    min-height: 100px;
+    position: relative;
+}
+
+.day .date {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 12px;
+}
+
+.event {
+    background-color: #f4f4f4;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+
+
+.profile-header {
+    background: #f8f9fa;
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.profile-header .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-header .profile-info {
+    margin-left: 20px;
+}
+
+.profile-header .profile-info h2 {
+    margin-top: 0;
+}
+
+.profile-content {
+    padding: 20px;
+}
+
+.profile-content .list-group-item {
+    margin-bottom: 10px;
+}
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic - Eco-Friendly Living Forum</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Eco-Friendly Forum</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="category.html">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="events.html">Events Calendar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.html">Sign Up</a>
+                </li>
+            </ul>
+            <form class="form-inline ml-auto">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Topic: How to reduce plastic use?</h1>
+        <p class="lead">Share your tips and tricks for reducing plastic waste.</p>
+    </header>
+
+    <!-- Posts List -->
+    <section id="posts" class="container py-5">
+        <h2>Posts</h2>
+        <div class="media mb-4">
+            <img src="./img/b3.jpg" class="mr-3" alt="User1" style="width:64px;height:64px;">
+            <div class="media-body">
+                <h5 class="mt-0">User123</h5>
+                I have started using reusable bags and avoiding single-use plastics as much as possible.
+                <!-- Nested Replies -->
+                <div class="media mt-3">
+                    <a class="mr-3" href="#">
+                        <img src="./img/c5.jpg" alt="User2" style="width:64px;height:64px;">
+                    </a>
+                    <div class="media-body">
+                        <h5 class="mt-0">GreenThumb</h5>
+                        That's a great tip! I've also found that switching to a stainless steel water bottle helps a lot.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="media mb-4">
+            <img src="./img/b6.jpg" class="mr-3" alt="User3" style="width:64px;height:64px;">
+            <div class="media-body">
+                <h5 class="mt-0">EcoWarrior</h5>
+                I love using beeswax wraps instead of plastic wrap for food storage.
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Eco-Friendly Living Forum. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

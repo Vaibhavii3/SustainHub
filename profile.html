@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile - Eco-Friendly Living Forum</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .profile-header {
+            background: #f8f9fa;
+            padding: 20px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .profile-header .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .profile-header .profile-info {
+            margin-left: 20px;
+        }
+        .profile-header .profile-info h2 {
+            margin-top: 0;
+        }
+        .profile-content {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Eco-Friendly Forum</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="category.html">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="events.html">Events Calendar</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="profile.html">Profile</a>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Profile Header -->
+    <section class="profile-header d-flex align-items-center">
+        <img src="./img/c3.jpg" alt="Profile Picture" class="profile-picture">
+        <div class="profile-info">
+            <h2>vhsrdftg</h2>
+            <p>@nicolas</p>
+            <p><strong>Bio:</strong> Eco-enthusiast and advocate for sustainable living.</p>
+
+            
+            <a href="edit-profile.html" class="btn btn-outline-success my-2 my-sm-0"> Edit Profile </a>
+        </div>
+    </section>
+
+    <!-- Profile Content -->
+    <section class="profile-content container">
+        <h3>Recent Posts</h3>
+        <div class="list-group">
+            <a href="topic.html" class="list-group-item list-group-item-action">
+                <h5 class="mb-1">How to reduce plastic use?</h5>
+                <p class="mb-1">Tips and tricks for reducing plastic waste in daily life.</p>
+                <small>Posted on June 5, 2024</small>
+            </a>
+            <a href="topic.html" class="list-group-item list-group-item-action">
+                <h5 class="mb-1">Best plants for indoor air quality</h5>
+                <p class="mb-1">A discussion on plants that improve indoor air quality.</p>
+                <small>Posted on June 1, 2024</small>
+            </a>
+            <a href="topic.html" class="list-group-item list-group-item-action">
+                <h5 class="mb-1">How to reduce plastic use?</h5>
+                <p class="mb-1">Tips and tricks for reducing plastic waste in daily life.</p>
+                <small>Posted on June 5, 2024</small>
+            </a>
+            <a href="topic.html" class="list-group-item list-group-item-action">
+                <h5 class="mb-1">Best plants for indoor air quality</h5>
+                <p class="mb-1">A discussion on plants that improve indoor air quality.</p>
+                <small>Posted on June 1, 2024</small>
+            </a>
+            
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Eco-Friendly Living Forum. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events Calendar - Eco-Friendly Living Forum</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .calendar {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 10px;
+        }
+        .day {
+            border: 1px solid #ddd;
+            padding: 10px;
+            min-height: 100px;
+            position: relative;
+        }
+        .day .date {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            font-size: 12px;
+        }
+        .event {
+            background-color: #f4f4f4;
+            padding: 5px;
+            margin-top: 5px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Eco-Friendly Forum</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="category.html">Categories</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="events.html">Events Calendar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.html">Sign Up</a>
+                </li>
+            </ul>
+            <form class="form-inline ml-auto">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Events Calendar</h1>
+        <p class="lead">Stay updated with the latest eco-friendly events.</p>
+    </header>
+
+    <!-- Events Calendar -->
+    <section id="calendar" class="container py-5">
+        <h2>June 2024</h2>
+        <div class="calendar">
+            <!-- Days of the Week -->
+            <div>Sun</div>
+            <div>Mon</div>
+            <div>Tue</div>
+            <div>Wed</div>
+            <div>Thu</div>
+            <div>Fri</div>
+            <div>Sat</div>
+
+            <!-- Days -->
+            <div class="day"><span class="date"></span></div>
+            <div class="day"><span class="date"></span></div>
+            <div class="day"><span class="date"></span></div>
+            <div class="day"><span class="date"></span></div>
+            <div class="day"><span class="date"></span></div>
+            <div class="day"><span class="date"></span></div>
+            <div class="day"><span class="date">1</span></div>
+            <div class="day"><span class="date">2</span></div>
+            <div class="day"><span class="date">3</span></div>
+            <div class="day"><span class="date">4</span></div>
+            <div class="day"><span class="date">5</span></div>
+            <div class="day"><span class="date">6</span></div>
+            <div class="day"><span class="date">7</span></div>
+            <div class="day"><span class="date">8</span></div>
+            <div class="day"><span class="date">9</span></div>
+            <div class="day"><span class="date">10</span></div>
+            <div class="day"><span class="date">11</span></div>
+            <div class="day"><span class="date">12</span></div>
+            <div class="day"><span class="date">13</span></div>
+            <div class="day"><span class="date">14</span></div>
+            <div class="day"><span class="date">15</span></div>
+            <div class="day"><span class="date">16</span></div>
+            <div class="day"><span class="date">17</span></div>
+            <div class="day"><span class="date">18</span></div>
+            <div class="day"><span class="date">19</span></div>
+            <div class="day"><span class="date">20</span></div>
+            <div class="day"><span class="date">21</span></div>
+            <div class="day"><span class="date">22</span></div>
+            <div class="day"><span class="date">23</span></div>
+            <div class="day"><span class="date">24</span></div>
+            <div class="day"><span class="date">25</span></div>
+            <div class="day"><span class="date">26</span></div>
+            <div class="day"><span class="date">27</span></div>
+            <div class="day"><span class="date">28</span></div>
+            <div class="day"><span class="date">29</span></div>
+            <div class="day"><span class="date">30</span></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Eco-Friendly Living Forum. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+
+    
+    
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
